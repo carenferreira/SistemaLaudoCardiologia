@@ -1,0 +1,124 @@
+/* Overall page styling */
+body {
+	font-family: Arial, sans-serif;
+	background: linear-gradient(to bottom, #3498db, #87CEEB);
+	/* Gradient background from dark blue to light blue */
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+/* Container for the content */
+div {
+	max-width: 600px;
+	padding: 20px;
+	background-color: transparent; 
+	border: 1px solid #fff; 
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	text-align: center;
+}
+
+/* Header (Informações do Paciente) */
+h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+/* Section headings  */
+h2 {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+	background-color: #3498db;
+	color: #fff; 
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Form input styling */
+input[type="text"], input[type="password"], input[type="date"], input[type="time"]
+	{
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid #fff; 
+	border-radius: 5px;
+}
+
+/* Form input styling */
+select, textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid #fff; 
+	border-radius: 5px;
+}
+
+/* Navigation menu styling */
+nav {
+	text-align: center;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	color: #fff; 
+	padding: 10px 0;
+	transition: background-color 0.3s;
+}
+
+nav a:hover {
+	background-color: #ccc; 
+}
+
+/* Styling for data entries */
+p {
+	margin: 5px 0;
+}
+
+/* Menu Principal  */
+#menuprincipal, #sair {
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	text-decoration: none;
+	color: #fff; 
+}
+
+/*Tabela*/
+
+table {
+	width: 100%;
+	background-color: linear-gradient(to right, #21568C, #3498db); 
+	border: 1px solid #fff; 
+	border-collapse: collapse;
+}
+
+table th, table td {
+	padding: 10px;
+	border: 1px solid #fff; 
+}
+
+/* Buttons styling */
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.buttons a {
+	color: #fff; 
+	text-decoration: none;
+	border: 1px solid #fff; 
+	padding: 5px 10px;
+	border-radius: 5px;
+}
